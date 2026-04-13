@@ -902,7 +902,7 @@
 <!-- NAVIGATION -->
 <nav id="navbar">
   <a href="#" class="nav-logo">NutriWell <span>by Clémence</span></a>
-  <a href="#rdv" class="nav-cta">Réserver mon appel</a>
+  <a href="https://app.iclosed.io/e/nutriwell/appeldecouverte" class="nav-cta" target="_blank">Réserver mon appel</a>
 </nav>
 
 <!-- HERO -->
@@ -1190,7 +1190,7 @@
       Réserve ton appel découverte gratuit. On fait le point sur ta situation, 
       tes objectifs et on voit ensemble si mon accompagnement est fait pour toi.
     </p>
-    <a href="https://iclosed.io/REMPLACE-PAR-TON-LIEN" class="btn-primary" target="_blank">
+    <a href="https://app.iclosed.io/e/nutriwell/appeldecouverte" class="btn-primary" target="_blank">
       Réserver mon appel découverte gratuit
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
     </a>
@@ -1208,14 +1208,14 @@
   <p class="footer-brand">NutriWell by Clémence</p>
   <div class="social-links">
     <a href="https://www.instagram.com/nutriwellcoaching/" target="_blank">Instagram</a>
-    <a href="#" target="_blank">YouTube</a>
+    <a href="https://www.youtube.com/@nutriwell-coaching" target="_blank">YouTube</a>
   </div>
   <p>© 2026 NutriWell by Clémence · Tous droits réservés</p>
-  <p style="margin-top:8px;"><a href="mailto:contact@nutriwell-coaching.fr">contact@nutriwell-coaching.fr</a></p>
+  <p style="margin-top:8px;"><a href="/cdn-cgi/l/email-protection#ccafa3a2b8adafb88ca2b9b8bea5bba9a0a0e1afa3adafa4a5a2abe2aabe"><span class="__cf_email__" data-cfemail="96f5f9f8e2f7f5e2d6f8e3e2e4ffe1f3fafabbf5f9f7f5fefff8f1b8f0e4">[email&#160;protected]</span></a></p>
 </footer>
 
 <!-- SCRIPTS -->
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   // Navbar scroll effect
   const navbar = document.getElementById('navbar');
   window.addEventListener('scroll', () => {
@@ -1238,15 +1238,4 @@
 
   // Smooth scroll for anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
-  });
-</script>
-
-</body>
-</html>
+    anchor.addEventListene
